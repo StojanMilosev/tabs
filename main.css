@@ -40,3 +40,35 @@
     border-top: none;
     border-radius:  0 0 5px 5px ;
 }
+/*vertical tabs*/
+.tab-vertical{
+    float: left;
+    box-sizing: border-box;
+    width: 20%;
+    height: 300px;
+    border: solid 2px #555555;
+    background-color: #efefef;
+    border-radius: 5px;
+}
+.tab-link-vertical{
+    background-color: inherit;
+    width: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.tab-content-vertical{
+    box-sizing: border-box;
+    float: left;
+    width: 80%;
+    height: 300px;
+    padding: 10px 20px;
+    border: solid 1px #555;
+    border-left: none;
+    border-radius:  0 5px 5px 0 ;
+}
