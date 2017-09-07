@@ -1,0 +1,26 @@
+*,body{
+    margin: none;
+    padding: none;
+    font-family: Cantarell, sans-serif;
+}
+.container{
+    width: 900px;
+    margin: auto;
+    padding: 50px;    
+}
+.tab{
+    overflow: hidden;
+    border: solid 2px #555555;
+    background-color: #efefef;
+}
+.tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
