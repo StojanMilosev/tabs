@@ -12,6 +12,7 @@
     overflow: hidden;
     border: solid 2px #555555;
     background-color: #efefef;
+    border-radius: 5px;
 }
 .tab button{
     background-color: inherit;
@@ -20,7 +21,21 @@
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    -webkit-transition: all 250ms ease-in-out;
-    -moz-transition: all 250ms ease-in-out;
-    transition: all 250ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.tab button:hover{
+    background-color: #555;
+    color: #ddd;
+}
+.tab button.active{
+    background: #555;
+    color: #ddd;
+}
+.tab-content{
+    display: none;
+    padding: 10px 20px;
+    border: solid 1px #555;
+    border-top: none;
 }
